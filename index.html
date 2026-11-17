@@ -43,8 +43,110 @@ time,.places b{color:#85472b}.details p,time small,footer{color:#625e52}
 .places a:hover,.places a:focus-visible{background:#f2ebd9;border-color:#977e5c}
 a:focus-visible{outline:2px solid #865637;outline-offset:2px}
 @media(max-width:750px){article{grid-template-columns:55px 1fr}header{background-position:center,70% center}}
-</style></head><body><header><div><small>GUANGZHOU</small><h1>我们的广州一日游</h1><div class="schedule"><span class="label">行程时间</span><span><strong>11:30</strong>到银灯食府</span><span><strong>14:25</strong>出发去跳舞</span><span><strong>17:20</strong>到利菀酒家</span><span><strong>约 19:00</strong>回广州东站</span></div><b>广州东站出发 · 约 19:00 回广州东站</b></div></header><nav aria-label="行程时段"><div><a href="#part0" aria-current="location">上午 · 东站与银灯</a><a href="#part1">午后 · 甜品与跳舞</a><a href="#part2">傍晚 · 吃饭与看塔</a></div></nav><main><div><section id="part0"><h2>广州东站出发，去银灯吃午饭</h2><article id="stop0"><time>出发</time><div class="thumb t0"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M10 28h40V15q0-5-6-5H16q-6 0-6 5zm5-13h30v8H15zm1 17-5 5m33-5 5 5M21 32h17"/></svg><small>出发</small></div><div class="details"><h3>从广州东站出发</h3><div class="places"><a aria-label="去广州东站，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%B9%BF%E5%B7%9E%E4%B8%9C%E7%AB%99"><span>广州东站</span><b>去这里 ↗</b></a><a aria-label="去银灯食府（文化公园店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%A5%BF%E5%A0%A4%E4%BA%8C%E9%A9%AC%E8%B7%AF37%E5%8F%B7"><span>银灯食府（文化公园店）</span><b>去这里 ↗</b></a></div></div></article>
-<article id="stop1"><time>11:30<small>至 12:25</small></time><div class="thumb t1"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M9 22h37q-3 13-17 13T9 22zm37 0h5q6 5-6 8M6 37h45M20 18q-5-4 0-8m10 8q-5-4 0-8"/></svg><small>午饭</small></div><div class="details"><h3>银灯食府吃饭</h3><p>11:30 到达，出餐大约 45 分钟，预计 12:25 结束。</p><div class="places"><a aria-label="去银灯食府（文化公园店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%A5%BF%E5%A0%A4%E4%BA%8C%E9%A9%AC%E8%B7%AF37%E5%8F%B7"><span>银灯食府（文化公园店）</span><b>去这里 ↗</b></a><a href="https://m.dianping.com/shopinfo/H3GjwAxmofkZoqgq?msource=Appshare2021&amp;utm_source=shop_share&amp;shoptype=10&amp;shopcategoryid=34283&amp;cityid=4&amp;isoversea=0" aria-label="查看排队，打开大众点评银灯食府（文化公园店）">查看排队</a></div></div></article></section><section id="part1"><h2>买南信甜品、陈氏祠堂拍照、跳舞</h2><article id="stop2"><time>12:45<small>至 13:30</small></time><div class="thumb t2"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M8 22q18-8 43 0-2 14-22 14T8 22zm0 0q20 7 43 0M35 18l12-12 3 2-10 11"/></svg><small>甜品</small></div><div class="details"><h3>永清坊一带 · 南信甜品</h3><p>12:45 到永清坊那块买南信甜品，稍微逛逛至 13:30。</p><div class="places"><a aria-label="去南信甜品，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E7%AC%AC%E5%8D%81%E7%94%AB%E8%B7%AF47%E5%8F%B7"><span>南信甜品</span><b>去这里 ↗</b></a><a aria-label="去永庆坊，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%8D%94%E6%B9%BE%E5%8C%BA%E6%B0%B8%E5%BA%86%E5%9D%8A"><span>永庆坊</span><b>去这里 ↗</b></a></div></div></article>
+
+.trip-pair{display:flex;align-items:stretch;gap:10px;max-width:100%;margin-top:4px}
+.trip-pair .schedule{margin:0}
+.trip-count{display:flex;flex-direction:column;justify-content:center;gap:2px;padding:7px 12px;background:#fff4dc;color:#493b2d;border:1px solid #e4cfa5;border-radius:5px;font-size:13px}
+#trip-next{color:#87502e}#trip-value{font-weight:700;font-size:clamp(16px,1.8vw,23px);line-height:1.25}
+.trip-readout{display:flex;align-items:center;flex-wrap:wrap;gap:2px 7px;color:#493b2d;font-size:12px;font-variant-numeric:tabular-nums}
+#trip-sync{font-size:11px}
+@media(max-width:600px){.trip-pair{display:grid;width:100%;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:6px}.trip-pair .schedule{width:auto;grid-template-columns:1fr;gap:1px;padding:6px 8px}.trip-pair .schedule span{white-space:normal}.trip-count{padding:6px 8px}#trip-next{font-size:12px}}
+
+/* Keep the skyline and itinerary in separate areas of the cover. */
+header { position:relative; isolation:isolate; background:linear-gradient(105deg,#183a39 0%,#254b59 50%,#345f7a 100%); color:#fff9e9; }
+header .cover-heading small { color:#f3d4ae; }
+header::before {
+  content:""; position:absolute; z-index:-1; inset:0 0 0 58%;
+  background:linear-gradient(90deg,#183a39,transparent 36%),url("river.svg") 71% center/cover;
+}
+/* Blend only the illustration edges into the continuous cover gradient. */
+header::before {
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 22%);
+  mask-image:linear-gradient(90deg,transparent,#000 22%);
+}
+@media(max-width:960px) {
+  header::before {
+    -webkit-mask-image:linear-gradient(to bottom,#000 68%,transparent 100%);
+    mask-image:linear-gradient(to bottom,#000 68%,transparent 100%);
+  }
+}
+header>div { min-height:260px; padding-block:30px 24px; }
+.trip-pair { width:min(52vw,590px); display:grid; grid-template-columns:minmax(0,1.22fr) minmax(0,1fr); }
+.trip-pair .schedule { width:auto; }
+.trip-count { min-width:0; }
+header h1 { margin-bottom:14px; }
+@media(max-width:960px) {
+  header::before { inset:0 0 auto; height:150px; background:linear-gradient(90deg,#183a39 5%,#183a39b8 40%,transparent 72%),url("river.svg") right top/auto 100% no-repeat; }
+  header>div { min-height:0; padding:18px 16px 14px; }
+  header h1 { max-width:68%; font-size:clamp(28px,5vw,44px); line-height:1.16; margin:5px 0 0; }
+  .trip-pair { width:min(100%,600px); margin-top:0; gap:8px; }
+  header .cover-heading { height:132px; width:100%; }
+  header b { margin-top:8px; }
+}
+@media(min-width:961px) { header .cover-heading { max-width:53vw; } }header::after {
+  content:"";
+  position:absolute;
+  inset:auto 0 0;
+  height:24px;
+  z-index:-1;
+  pointer-events:none;
+  opacity:.12;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='24' viewBox='0 0 540 24'%3E%3Cg fill='none' stroke='%23bbdce4' stroke-width='1'%3E%3Cpath d='M0 9q67.5 -6 135 0t135 0t135 0t135 0'/%3E%3Cpath opacity='.65' d='M0 19q90 4 180 0t180 0t180 0'/%3E%3C/g%3E%3C/svg%3E") repeat-x center bottom;
+}</style></head><body><header><div><div class="cover-heading"><small>GUANGZHOU</small><h1>我们的广州一日游</h1></div><div class="trip-pair"><div class="schedule"><span class="label">行程时间</span><span><strong>11:30</strong>到银灯食府</span><span><strong>14:25</strong>出发去跳舞</span><span><strong>17:20</strong>到利菀酒家</span><span><strong>19:00</strong>回广州东站</span></div><div class="trip-count"><span id="trip-next"></span><strong id="trip-value"></strong><div class="trip-readout"><span id="trip-clock"></span><span id="trip-sync"></span></div></div></div><b>广州东站出发 · 约 19:00 回广州东站</b></div></header><nav aria-label="行程时段"><div><a href="#part0" aria-current="location">上午 · 东站与银灯</a><a href="#part1">午后 · 甜品与跳舞</a><a href="#part2">傍晚 · 吃饭与看塔</a></div></nav><main><div><section id="part0"><h2>广州东站出发，去银灯吃午饭</h2><article id="stop0"><time>出发</time><div class="thumb t0"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M10 28h40V15q0-5-6-5H16q-6 0-6 5zm5-13h30v8H15zm1 17-5 5m33-5 5 5M21 32h17"/></svg><small>出发</small></div><div class="details"><h3>从广州东站出发</h3><div class="places"><a aria-label="去广州东站，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%B9%BF%E5%B7%9E%E4%B8%9C%E7%AB%99"><span>广州东站</span><b>去这里 ↗</b></a><a aria-label="去银灯食府（文化公园店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%A5%BF%E5%A0%A4%E4%BA%8C%E9%A9%AC%E8%B7%AF37%E5%8F%B7"><span>银灯食府（文化公园店）</span><b>去这里 ↗</b></a></div></div></article>
+<article id="stop1"><time>11:30<small>至 12:25</small></time><div class="thumb t1"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M9 22h37q-3 13-17 13T9 22zm37 0h5q6 5-6 8M6 37h45M20 18q-5-4 0-8m10 8q-5-4 0-8"/></svg><small>午饭</small></div><div class="details"><h3>银灯食府吃饭</h3><p>11:30 到达，出餐大约 45 分钟，预计 12:25 结束。</p><p><strong>排队人多，需提前现场排队</strong></p><div class="places"><a aria-label="去银灯食府（文化公园店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%A5%BF%E5%A0%A4%E4%BA%8C%E9%A9%AC%E8%B7%AF37%E5%8F%B7"><span>银灯食府（文化公园店）</span><b>去这里 ↗</b></a><a href="https://m.dianping.com/shopinfo/H3GjwAxmofkZoqgq?msource=Appshare2021&amp;utm_source=shop_share&amp;shoptype=10&amp;shopcategoryid=34283&amp;cityid=4&amp;isoversea=0" aria-label="查看排队，打开大众点评银灯食府（文化公园店）">查看排队</a></div></div></article></section><section id="part1"><h2>买南信甜品、陈氏祠堂拍照、跳舞</h2><article id="stop2"><time>12:45<small>至 13:30</small></time><div class="thumb t2"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M8 22q18-8 43 0-2 14-22 14T8 22zm0 0q20 7 43 0M35 18l12-12 3 2-10 11"/></svg><small>甜品</small></div><div class="details"><h3>永清坊一带 · 南信甜品</h3><p>12:45 到永清坊那块买南信甜品，稍微逛逛至 13:30。</p><div class="places"><a aria-label="去南信甜品，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E7%AC%AC%E5%8D%81%E7%94%AB%E8%B7%AF47%E5%8F%B7"><span>南信甜品</span><b>去这里 ↗</b></a><a aria-label="去永庆坊，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%8D%94%E6%B9%BE%E5%8C%BA%E6%B0%B8%E5%BA%86%E5%9D%8A"><span>永庆坊</span><b>去这里 ↗</b></a></div></div></article>
 <article id="stop3"><time>13:55<small>至 14:25</small></time><div class="thumb t3"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M9 14h11l4-5h12l4 5h10v20H9zm20 4a6 6 0 1 0 .1 0"/></svg><small>拍照</small></div><div class="details"><h3>陈氏祠堂拍照</h3><p>13:55 到达陈氏祠堂拍照。14:25 出发前往跳舞，路上大约 55 分钟。</p><div class="places"><a aria-label="去陈家祠（陈氏书院），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%8D%94%E6%B9%BE%E5%8C%BA%E9%99%88%E6%B0%8F%E4%B9%A6%E9%99%A2"><span>陈家祠（陈氏书院）</span><b>去这里 ↗</b></a><a aria-label="去Spicy 舞室，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E9%95%BF%E6%B9%B4%E7%9D%BF%E5%BF%97%E5%88%9B%E6%84%8F%E5%9B%ADK%E6%A0%8B"><span>Spicy 舞室</span><b>去这里 ↗</b></a></div></div></article>
-<article id="stop4"><time>15:30<small>至 16:30</small></time><div class="thumb t4"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M24 26V12l22-5v18m-22-9 22-5M24 26q-1-4-7-2t-5 6q2 4 8 1t4-5zm22-1q-1-4-7-2t-5 6q2 4 8 1t4-5z"/></svg><small>舞蹈课</small></div><div class="details"><h3>跳舞</h3><p>15:30 开始，16:30 结束。</p><div class="places"><a aria-label="去Spicy 舞室，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E9%95%BF%E6%B9%B4%E7%9D%BF%E5%BF%97%E5%88%9B%E6%84%8F%E5%9B%ADK%E6%A0%8B"><span>Spicy 舞室</span><b>去这里 ↗</b></a></div></div></article></section><section id="part2"><h2>吃饭、看广州塔、回广州东站</h2><article id="stop5"><time>17:20<small>至 约 19:00</small></time><div class="thumb t5"><svg class="scene" role="img" aria-label="花城广场远望广州塔手账插画" viewBox="0 0 180 100"><rect width="180" height="100" fill="#f1e6d0"/><circle cx="124" cy="28" r="14" fill="#e2ac88"/><path fill="#abb6ab" d="M0 78h14V60h12v18h10V49h11v29h79V61h10v17h9V53h15v25h20v15H0z"/><g stroke="#986757" fill="none"><path fill="#e7c4ab" d="M82 85q13-35 5-62h12q-11 28 1 62z"/><path d="M94 23V4M88 26l10 56m0-55L84 83m5-46h7m-7 10h5m-6 12h6m-7 12h8"/></g><path stroke="#7b958a" d="M7 87h166M25 92h70"/></svg></div><div class="details"><h3>利菀酒家吃饭，花城广场看广州塔</h3><p>17:20 到达利菀酒家吃饭，再去花城广场看广州塔。</p><div class="places"><a aria-label="去利苑酒家（珠江新城店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%8D%8E%E5%A4%8F%E8%B7%AF8%E5%8F%B7%E5%90%88%E6%99%AF%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%B9%BF%E5%9C%BA"><span>利苑酒家（珠江新城店）</span><b>去这里 ↗</b></a><a aria-label="去花城广场，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA"><span>花城广场</span><b>去这里 ↗</b></a></div></div></article>
-<article id="stop6"><time>约 19:00</time><div class="thumb t6"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M10 28h40V15q0-5-6-5H16q-6 0-6 5zm5-13h30v8H15zm1 17-5 5m33-5 5 5M21 32h17"/></svg><small>返站</small></div><div class="details"><h3>回广州东站</h3><p>大约 19:00 结束，回广州东站。</p><div class="places"><a aria-label="去广州东站，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%B9%BF%E5%B7%9E%E4%B8%9C%E7%AB%99"><span>广州东站</span><b>去这里 ↗</b></a></div></div></article></section></div></main><footer>广州东站出发 · 广州东站返程</footer><script>const tabs=[...document.querySelectorAll('nav a')];function mark(){let n=0;tabs.forEach((a,i)=>{if(document.querySelector(a.hash).getBoundingClientRect().top<=72)n=i});if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-2)n=2;tabs.forEach((a,i)=>{if(i===n)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}addEventListener('scroll',mark,{passive:true});mark();</script></body></html>
+<article id="stop4"><time>15:30<small>至 16:30</small></time><div class="thumb t4"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M24 26V12l22-5v18m-22-9 22-5M24 26q-1-4-7-2t-5 6q2 4 8 1t4-5zm22-1q-1-4-7-2t-5 6q2 4 8 1t4-5z"/></svg><small>舞蹈课</small></div><div class="details"><h3>跳舞</h3><p>15:30 开始，16:30 结束。</p><div class="places"><a aria-label="去Spicy 舞室，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E9%95%BF%E6%B9%B4%E7%9D%BF%E5%BF%97%E5%88%9B%E6%84%8F%E5%9B%ADK%E6%A0%8B"><span>Spicy 舞室</span><b>去这里 ↗</b></a></div></div></article></section><section id="part2"><h2>吃饭、看广州塔、回广州东站</h2><article id="stop5"><time>17:20<small>至 约 19:00</small></time><div class="thumb t5"><svg class="scene" role="img" aria-label="花城广场远望广州塔手账插画" viewBox="0 0 180 100"><rect width="180" height="100" fill="#f1e6d0"/><circle cx="124" cy="28" r="14" fill="#e2ac88"/><path fill="#abb6ab" d="M0 78h14V60h12v18h10V49h11v29h79V61h10v17h9V53h15v25h20v15H0z"/><g stroke="#986757" fill="none"><path fill="#e7c4ab" d="M82 85q13-35 5-62h12q-11 28 1 62z"/><path d="M94 23V4M88 26l10 56m0-55L84 83m5-46h7m-7 10h5m-6 12h6m-7 12h8"/></g><path stroke="#7b958a" d="M7 87h166M25 92h70"/></svg></div><div class="details"><h3>利菀酒家吃饭，花城广场看广州塔</h3><p>17:20 到达利菀酒家吃饭，再去花城广场看广州塔。</p><p><strong>有些菜品需要提前预约</strong></p><div class="places"><a aria-label="去利苑酒家（珠江新城店），打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%8D%8E%E5%A4%8F%E8%B7%AF8%E5%8F%B7%E5%90%88%E6%99%AF%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%B9%BF%E5%9C%BA"><span>利苑酒家（珠江新城店）</span><b>去这里 ↗</b></a><a href="https://m.dianping.com/shopshare/l4NhEDH4tuPi0kvV?msource=Appshare2021&amp;utm_source=shop_share&amp;shoptype=55&amp;shopcategoryid=165&amp;isoversea=0&amp;shareid=xpeKSdaYv6_1794922025" aria-label="查看利菀酒家预约，大众点评">查看预约</a><a aria-label="去花城广场，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA"><span>花城广场</span><b>去这里 ↗</b></a></div></div></article>
+<article id="stop6"><time>约 19:00</time><div class="thumb t6"><svg class="sketch" aria-hidden="true" viewBox="0 0 60 42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M10 28h40V15q0-5-6-5H16q-6 0-6 5zm5-13h30v8H15zm1 17-5 5m33-5 5 5M21 32h17"/></svg><small>返站</small></div><div class="details"><h3>回广州东站</h3><p>大约 19:00 结束，回广州东站。</p><div class="places"><a aria-label="去广州东站，打开苹果地图" href="https://maps.apple.com/?daddr=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E5%B9%BF%E5%B7%9E%E4%B8%9C%E7%AB%99"><span>广州东站</span><b>去这里 ↗</b></a></div></div></article></section></div></main><footer>广州东站出发 · 广州东站返程</footer><script>const tabs=[...document.querySelectorAll('nav a')];function mark(){let n=0;tabs.forEach((a,i)=>{if(document.querySelector(a.hash).getBoundingClientRect().top<=72)n=i});if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-2)n=2;tabs.forEach((a,i)=>{if(i===n)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}addEventListener('scroll',mark,{passive:true});mark();</script><script>(() => {
+  const day = '2026-11-22';
+  const start = Date.parse(day + 'T00:00:00+08:00');
+  const end = start + 86400000;
+  const stops = [
+    ['11:30','到银灯食府'], ['12:25','午饭结束'], ['12:45','买南信甜品'],
+    ['13:30','结束闲逛'], ['13:55','陈氏祠堂拍照'], ['14:25','出发去跳舞'],
+    ['15:30','跳舞'], ['16:30','跳舞结束'], ['17:20','到利菀酒家'], ['19:00','回广州东站']
+  ].map(([time, label]) => ({time, label, at: Date.parse(day + 'T' + time + ':00+08:00')}));
+  function itinerary(now) {
+    if (now < start) return ['11 月 22 日出发','当天开启行程时间计算'];
+    if (now >= end) return ['11 月 22 日 · 广州一日游','行程已结束'];
+    const next = stops.find(stop => stop.at > now);
+    return next ? [next.time + ' ' + next.label, '还剩 ' + Math.ceil((next.at-now)/60000) + ' 分钟'] : ['回广州东站','现在出发'];
+  }
+  const el = id => document.getElementById(id);
+  const format = new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
+  let anchor = null, timer, request;
+  function draw() {
+    const now = anchor ? anchor.utc + performance.now() - anchor.tick : Date.now();
+    const [label,value] = itinerary(now);
+    el('trip-next').textContent = label;
+    el('trip-value').textContent = value;
+    el('trip-clock').textContent = '北京时间 ' + format.format(now);
+    clearTimeout(timer);
+    timer = setTimeout(draw,1003 - now % 1000);
+  }
+  async function sync() {
+    if (request) request.abort();
+    const ctrl = new AbortController();
+    request = ctrl;
+    const limit = setTimeout(() => ctrl.abort(),5000);
+    el('trip-sync').textContent = '校时中';
+    try {
+      const tick = performance.now();
+      const res = await fetch('https://www.cloudflare.com/cdn-cgi/trace?t=' + Date.now(),{cache:'no-store',credentials:'omit',signal:ctrl.signal});
+      const stamp = (await res.text()).match(/^ts=([\d.]+)\s*$/m);
+      const finish = performance.now();
+      if (!res.ok || !stamp || !Number.isFinite(Number(stamp[1]))) throw Error('Invalid time');
+      if (request !== ctrl) return;
+      anchor = {utc:Number(stamp[1])*1000 + (finish-tick)/2,tick:finish};
+      el('trip-sync').textContent = '已校时';
+    } catch {
+      if (request !== ctrl) return;
+      anchor = null;
+      el('trip-sync').textContent = '未校时';
+    } finally { clearTimeout(limit); }
+    draw();
+  }
+  document.addEventListener('visibilitychange',() => {if (!document.hidden) sync()});
+  window.addEventListener('pageshow',event => {if (event.persisted) sync()});
+  setInterval(() => {if (!document.hidden) sync()},300000);
+  draw(); sync();
+})();</script></body></html>
